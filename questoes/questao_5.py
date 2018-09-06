@@ -13,7 +13,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 5")
+    c = int(input("Quantidade de cigarros fumados por dia: "))
+    a = int(input("Quantidade de anos de fumo: "))
+    minuto = (c*10) * (a*365)
+    d = minuto // 1440
+    print ("Total de dias: ", d)
 
 
     

@@ -11,7 +11,10 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
+    celsius = float(input("Temperatura em ºC: "))
+    tf = (celsius/5) * 9 + 32
+    print ("Temperatura em Fahrenheit é igual a: ", tf)
+
 
 
 

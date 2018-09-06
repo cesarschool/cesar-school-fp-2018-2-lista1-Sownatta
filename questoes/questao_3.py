@@ -11,7 +11,12 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 3")
+    import math
+    r = int(input("Raio: "))
+    a = math.pi * (r ** 2)
+    d = 2 * r
+    c = 2 * math.pi * r
+    print ("A área do círculo é: ", a, "\nO diâmetro da circunferência é: ", d, "\nO cumprimento da circunferência é: ", c)
 
 
     
